@@ -7,8 +7,6 @@ using namespace std;
 
  // } Driver Code Ends
 
-
-
 class Solution
 {
     public:
@@ -44,13 +42,8 @@ class Solution
            for(int i = 0; i < vec.size(); i++){
                vec[i] = i - vec[i];
            }
-           return vec;
-        
-        
-           
-           
+           return vec;     
        }
-    
 };
 
 
